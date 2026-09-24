@@ -8,7 +8,7 @@ menuToggle?.addEventListener("click", () => {
 
 document.querySelectorAll("#primary-nav a").forEach((link) => {
   link.addEventListener("click", () => {
-    primaryNav.classList.remove("open");
-    menuToggle.setAttribute("aria-expanded", "false");
+    primaryNav?.classList.remove("open");
+    menuToggle?.setAttribute("aria-expanded", "false");
   });
 });

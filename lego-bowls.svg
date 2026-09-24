@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Bowls filled with colorful LEGO bricks</title>
+  <desc id="desc">Four bright bowls filled with red, yellow, blue, green, and purple building bricks.</desc>
+  <rect width="900" height="420" fill="#fff1df"/>
+  <ellipse cx="450" cy="360" rx="360" ry="28" fill="#ead4c3"/>
+  <g stroke="#32145f" stroke-width="8" stroke-linejoin="round">
+    <path d="M80 190h170v115c0 55-38 82-85 82s-85-27-85-82z" fill="#f47722"/>
+    <path d="M275 135h170v170c0 55-38 82-85 82s-85-27-85-82z" fill="#7042a8"/>
+    <path d="M470 165h170v140c0 55-38 82-85 82s-85-27-85-82z" fill="#4da7d8"/>
+    <path d="M665 115h170v190c0 55-38 82-85 82s-85-27-85-82z" fill="#f2c84b"/>
+  </g>
+  <g fill="#e94343" stroke="#32145f" stroke-width="5">
+    <rect x="105" y="125" width="48" height="42" rx="7"/><rect x="160" y="145" width="55" height="38" rx="7"/>
+    <rect x="125" y="185" width="58" height="40" rx="7"/>
+  </g>
+  <g fill="#f47722" stroke="#32145f" stroke-width="5">
+    <rect x="300" y="78" width="52" height="42" rx="7"/><rect x="365" y="95" width="58" height="40" rx="7"/>
+    <rect x="330" y="135" width="58" height="38" rx="7"/>
+  </g>
+  <g fill="#65c66a" stroke="#32145f" stroke-width="5">
+    <rect x="495" y="105" width="50" height="42" rx="7"/><rect x="555" y="120" width="58" height="38" rx="7"/>
+    <rect x="520" y="160" width="62" height="40" rx="7"/>
+  </g>
+  <g fill="#7042a8" stroke="#32145f" stroke-width="5">
+    <rect x="690" y="55" width="52" height="42" rx="7"/><rect x="755" y="75" width="58" height="40" rx="7"/>
+    <rect x="720" y="115" width="62" height="40" rx="7"/>
+  </g>
+</svg>
