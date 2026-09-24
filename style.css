@@ -230,6 +230,11 @@ h1 span, h2 em { color: var(--orange); }
 }
 .collection-card .card-kicker { margin-bottom: 11px; }
 .collection-card p:not(.card-kicker) { max-width: 280px; }
+.collection-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.collection-birthday { background: #f2a65a; color: #211238; }
+.collection-birthday h3 { color: #211238; }
+.collection-birthday p:not(.card-kicker) { color: #211238; }
+.collection-birthday .birthday-card-link { color: #211238; }
 .pricing-section {
   padding: 100px 0 108px;
   background: #f4eafa;
@@ -366,4 +371,8 @@ h1 span, h2 em { color: var(--orange); }
   .photo-story-images { min-height: 285px; }
   .photo-story-main { height: 245px; }
   .photo-story-small { height: 140px; }
+}
+
+@media (max-width: 850px) {
+  .collection-grid { grid-template-columns: 1fr; }
 }
