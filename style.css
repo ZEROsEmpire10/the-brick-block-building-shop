@@ -211,6 +211,16 @@ h1 span, h2 em { color: var(--orange); }
 .collection-purple { background: var(--purple); }
 .collection-orange { background: var(--orange); }
 .collection-cream { background: #fff1df; color: var(--ink); }
+.collection-birthday { background: #211238; color: #fff; }
+.collection-birthday h3 { color: #fff; }
+.collection-birthday p:not(.card-kicker) { color: rgba(255,255,255,.84); }
+.birthday-card-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: #fff;
+  font-weight: 800;
+  border-bottom: 2px solid var(--orange-soft);
+}
 .card-photo {
   display: block;
   width: calc(100% + 56px);
