@@ -312,6 +312,37 @@ h1 span, h2 em { color: var(--orange); }
   color: #4b286f;
 }
 
+#shop .section-heading {
+  display: block;
+  max-width: 650px;
+}
+
+#shop .section-description {
+  width: auto;
+  max-width: 520px;
+  margin: 24px 0 0;
+}
+
+.birthday-callout {
+  max-width: 350px;
+  margin: 0 0 28px;
+  padding: 14px 16px;
+  color: #4b4154;
+  background: rgba(216, 117, 43, .1);
+  border-left: 4px solid #d8752b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.birthday-callout strong {
+  color: #211238;
+}
+
+.birthday-callout a {
+  color: #4b286f;
+  font-weight: 800;
+}
+
 @media (max-width: 850px) {
   .hero-photo { width: 86%; }
   .photo-story-layout { grid-template-columns: 1fr; gap: 35px; }
